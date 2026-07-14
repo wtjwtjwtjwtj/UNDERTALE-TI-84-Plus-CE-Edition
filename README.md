@@ -14,12 +14,9 @@ A Short demo of UNDERTALE I'm currently working on from scratch for the Texas In
 
 # Current Progress
 ## STORY
-Characters : 1%
-Intro 100%
+Characters : 1% | Intro 100%
 ## ENGINE/MECHANICS
-In-game movement: 100%
-Battle engine: 0%
-Name Chooser: 100% + easter eggs
+In-game movement: 100% | Battle engine: 0% | Name Chooser: 100% + easter eggs
 
 # DISCLAIMER
 the creator of this application, nor the application itself, is not affiliated with Toby Fox or Royal Sciences, LLC. This will be taken down if requested.
