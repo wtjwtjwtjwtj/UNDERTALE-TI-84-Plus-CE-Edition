@@ -11,8 +11,7 @@ A version of UNDERTALE I'm currently working on from scratch for the Texas Instr
 7. run the command 'make'
 8. when its finished compiling, look in /undercalc/bin/bin
 9. drag and drop the .8xp file onto your calculator
-10. you're done! have fun!
--# if you want, you can check in every once in a while to see if the code has updated on this repository. This game is still a work in progress.
+10. you're done! have fun! if you want, you can check in every once in a while to see if the code has updated on this repository. This game is still a work in progress.
 
 # Current Progress
 ## STORY
