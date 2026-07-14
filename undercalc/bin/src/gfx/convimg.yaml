@@ -1,0 +1,50 @@
+palettes:
+  - name: global_palette
+    images:
+      - palette.png
+
+converts:
+  - name: game_sprites
+    palette: global_palette
+    transparent-index: 0
+    images:
+      - friskidledown.png
+      - friskdownmove1.png
+      - friskdownmove2.png
+      - friskidleup.png
+      - friskupmove1.png
+      - friskupmove2.png
+      - friskidleleft.png
+      - friskleftmove1.png
+      - friskleftmove2.png
+      - friskidleright.png
+      - friskrightmove1.png
+      - friskrightmove2.png
+      - undertale.png
+
+  - name: ouat_sprites
+    palette: global_palette
+    transparent-index: 0
+    compress: zx7
+    images:
+      - ouat0.png
+      - ouat1.png
+      - ouat2.png
+      - ouat3.png
+      - ouat4.png
+      - ouat5.png
+      - ouat6.png
+      - ouat7.png
+      - ouat8.png
+      - ouat9.png
+      - ouat10.png
+      - ouatl.png
+
+outputs:
+  - type: c
+    include-file: gfx.h
+    palettes:
+      - global_palette
+    converts:
+      - game_sprites
+      - ouat_sprites
