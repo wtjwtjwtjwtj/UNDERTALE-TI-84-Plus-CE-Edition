@@ -5,12 +5,13 @@ A Short demo of UNDERTALE I'm currently working on from scratch for the Texas In
 1. you need the CEdev tool chain: https://ce-programming.github.io/toolchain/static/getting-started.html and TI Connect CE: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
 2. download the source code
 3. extract all downloads and make sure the source code is in a folder seperate of all other files
-4. run CEDev.bat located in the CEDev folder you downloaded
-5. use the CD command to change the directory to /undercalc/bin
-6. run the command 'make'
-7. when its finished compiling, look in /undercalc/bin/bin
-8. drag and drop the .8xp file onto your calculator
-9. you're done! have fun!
+4. drag and drop CLIBS.8xg onto your calculator
+5. run CEDev.bat located in the CEDev folder you downloaded
+6. use the CD command to change the directory to /undercalc/bin
+7. run the command 'make'
+8. when its finished compiling, look in /undercalc/bin/bin
+9. drag and drop the .8xp file onto your calculator
+10. you're done! have fun!
 
 # Current Progress
 ## STORY
