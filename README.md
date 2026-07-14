@@ -1,5 +1,5 @@
 # UNDERTALE TI-84 Plus CE Edition
-A Short demo of UNDERTALE I'm currently working on from scratch for the Texas Instruments calculator, the TI-84 Plus CE
+A version of UNDERTALE I'm currently working on from scratch for the Texas Instruments calculator, the TI-84 Plus CE
 # This was written in C and needs CLIBS. You can download it from here: https://github.com/CE-Programming/libraries
 # How to set up
 1. you need the CEdev tool chain: https://ce-programming.github.io/toolchain/static/getting-started.html and TI Connect CE: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
@@ -12,6 +12,7 @@ A Short demo of UNDERTALE I'm currently working on from scratch for the Texas In
 8. when its finished compiling, look in /undercalc/bin/bin
 9. drag and drop the .8xp file onto your calculator
 10. you're done! have fun!
+-# if you want, you can check in every once in a while to see if the code has updated on this repository. This game is still a work in progress.
 
 # Current Progress
 ## STORY
