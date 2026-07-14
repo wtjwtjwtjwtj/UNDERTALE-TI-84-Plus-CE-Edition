@@ -3,7 +3,7 @@ A Short demo of UNDERTALE I'm currently working on from scratch for the Texas In
 # This was written in C and needs CLIBS. You can download it from here: https://github.com/CE-Programming/libraries
 # How to set up
 1. you need the CEdev tool chain: https://ce-programming.github.io/toolchain/static/getting-started.html and TI Connect CE: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
-2. download the source code
+2. download the source code of this github repo
 3. extract all downloads and make sure the source code is in a folder seperate of all other files
 4. drag and drop CLIBS.8xg onto your calculator
 5. run CEDev.bat located in the CEDev folder you downloaded
