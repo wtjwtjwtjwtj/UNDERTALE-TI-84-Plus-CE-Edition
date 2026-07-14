@@ -1,6 +1,6 @@
-# UNDERTALE-TI-84-Plus-CE-Edition
+# UNDERTALE TI-84 Plus CE Edition
 A Short demo of UNDERTALE I'm currently working on from scratch for the Texas Instruments calculator, the TI-84 Plus CE
-# This was written from in C and needs CLIBS. You can download it from here: https://github.com/CE-Programming/libraries
+# This was written in C and needs CLIBS. You can download it from here: https://github.com/CE-Programming/libraries
 # How to set up
 1. you need the CEdev tool chain: https://ce-programming.github.io/toolchain/static/getting-started.html and TI Connect CE: https://education.ti.com/en/products/computer-software/ti-connect-ce-sw
 2. download the source code
@@ -12,6 +12,14 @@ A Short demo of UNDERTALE I'm currently working on from scratch for the Texas In
 8. drag and drop the .8xp file onto your calculator
 9. you're done! have fun!
 
+# Current Progress
+## STORY
+Characters : 1%
+Intro 100%
+## ENGINE/MECHANICS
+In-game movement: 100%
+Battle engine: 0%
+Name Chooser: 100% + easter eggs
 
 # DISCLAIMER
 the creator of this application, nor the application itself, is not affiliated with Toby Fox or Royal Sciences, LLC. This will be taken down if requested.
