@@ -1,0 +1,674 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+                              obj/Undrtale.o (_malloc)
+
+Merging object attributes
+
+
+Discarded input sections
+
+ .comment       0x00000000      0xbb6 obj/Undrtale.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/Undrtale.o
+ .init.weak_crt
+                0x00000000       0x10 obj/Undrtale.o
+ .text          0x00000000        0x0 obj/crt0.o
+ .data          0x00000000        0x0 obj/crt0.o
+ .bss           0x00000000        0x0 obj/crt0.o
+ .text          0x00000000        0x0 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ .data          0x00000000        0x0 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ .bss           0x00000000        0x0 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ .text._realloc
+                0x00000000       0x7c C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ .comment       0x00000000       0x70 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+prgm             0x00d1a87f         0x00400000
+bss              0x00d052c6         0x0000ed12
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x00d1a87f                        LOAD_ADDR = 0xd1a87f
+                0x00d052c6                        BSSHEAP_LOW = 0xd052c6
+                0x00d13fd8                        BSSHEAP_HIGH = 0xd13fd8
+                0x00d1a87e                        STACK_HIGH = 0xd1a87e
+                0x00000001                        __TICE__ = 0x1
+                0x00d1a87f                        . = LOAD_ADDR
+
+.header         0x00d1a87f      0x11c
+ *(.header)
+ .header        0x00d1a87f        0x3 obj/crt0.o
+ *(.header.icon)
+ .header.icon   0x00d1a882      0x119 obj/Undrtale.o
+                0x00d1a887                ___icon
+                0x00d1a989                ___description
+
+.init           0x00d1a99b      0x13c
+ *(.init)
+ .init          0x00d1a99b      0x13c obj/crt0.o
+                0x00d1a99b                __start
+                0x00d1a9f8                __libload_library_GRAPHX
+                0x00d1aa01                _gfx_Begin
+                0x00d1aa05                _gfx_End
+                0x00d1aa09                _gfx_SetPalette
+                0x00d1aa0d                _gfx_GetPixel
+                0x00d1aa11                _gfx_SetDraw
+                0x00d1aa15                _gfx_Blit
+                0x00d1aa19                _gfx_PrintStringXY
+                0x00d1aa1d                _gfx_SetTextFGColor
+                0x00d1aa21                _gfx_GetStringWidth
+                0x00d1aa25                _gfx_AllocSprite
+                0x00d1aa29                _gfx_TransparentSprite
+                0x00d1aa2d                _gfx_ScaledSprite_NoClip
+                0x00d1aa31                _gfx_SetTextScale
+                0x00d1aa35                _gfx_SetTransparentColor
+                0x00d1aa39                _gfx_ZeroScreen
+                0x00d1aa3d                __libload_library_KEYPADC
+                0x00d1aa47                _kb_Scan
+                0x00d1aa9b                ___exithl
+                0x00d1aa9c                _exit.sp
+
+.text           0x00d1aad7     0x2c8c
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00d1aad7      0x3b7 obj/Undrtale.o
+                0x00d1aad7                __land
+                0x00d1aadb                __iand
+                0x00d1aaf2                __bshl
+                0x00d1aafb                __frameset
+                0x00d1ab09                __frameset0
+                0x00d1ab14                __idivs
+                0x00d1ab1b                __idvrms
+                0x00d1ab49                __idvrmu
+                0x00d1ab4d                __idvrmu.hijack_a_iters_ude_dividend
+                0x00d1ab63                __imulu
+                0x00d1ab63                __imuls
+                0x00d1ab93                __sneg
+                0x00d1ab93                __ineg
+                0x00d1ab9c                __inot
+                0x00d1ab9c                __snot
+                0x00d1aba6                __irems
+                0x00d1abae                __sshl
+                0x00d1abae                __ishl
+                0x00d1abd4                __ishru
+                0x00d1abd9                __ishrs
+                0x00d1ac15                __ishrs_1
+                0x00d1ac23                __ishru_1
+                0x00d1ac31                __ladd
+                0x00d1ac37                __lcmpu
+                0x00d1ac3f                __ldivu
+                0x00d1ac49                __ldivu_lremu_common
+                0x00d1ac71                __lmulu
+                0x00d1ac71                __lmuls
+                0x00d1accd                __lshrs
+                0x00d1ace7                __lshru
+                0x00d1acf5                __lsub
+                0x00d1acff                __sand
+                0x00d1ad08                __sdivs
+                0x00d1ad14                __sdivu
+                0x00d1ad1c                __sdvrms_abs
+                0x00d1ad3c                __sdvrmu
+                0x00d1ad4c                __setflag
+                0x00d1ad56                __smuls
+                0x00d1ad56                __smulu
+                0x00d1ad69                __sor
+                0x00d1ad72                __sxor
+                0x00d1ad7b                _zx7_Decompress
+                0x00d1ade6                _clock
+                0x00d1adf1                _memcpy
+                0x00d1ae12                _rand
+                0x00d1ae1f                _strncasecmp
+                0x00d1ae5d                _tolower
+                0x00d1ae60                _tolower.internal
+                0x00d1ae69                _atomic_load_increasing_32
+ .text._shake   0x00d1ae8e        0xe obj/Undrtale.o
+                0x00d1ae8e                _shake
+ .text._get_y   0x00d1ae9c       0x3c obj/Undrtale.o
+                0x00d1ae9c                _get_y
+ .text._fade_screen_to_white
+                0x00d1aed8      0x158 obj/Undrtale.o
+                0x00d1aed8                _fade_screen_to_white
+ .text._fade_palette_from_black
+                0x00d1b030      0x13a obj/Undrtale.o
+                0x00d1b030                _fade_palette_from_black
+ .text._check_easter_eggs
+                0x00d1b16a      0x4b5 obj/Undrtale.o
+                0x00d1b16a                _check_easter_eggs
+ .text._free_ouat_scene
+                0x00d1b61f       0x31 obj/Undrtale.o
+                0x00d1b61f                _free_ouat_scene
+ .text._load_ouat_scene
+                0x00d1b650       0x94 obj/Undrtale.o
+                0x00d1b650                _load_ouat_scene
+ .text._draw_typewriter_text_centered
+                0x00d1b6e4      0x33b obj/Undrtale.o
+                0x00d1b6e4                _draw_typewriter_text_centered
+ .text._next_ouat_scene
+                0x00d1ba1f       0x7e obj/Undrtale.o
+                0x00d1ba1f                _next_ouat_scene
+ .text._draw_ouat_frame
+                0x00d1ba9d      0x1a9 obj/Undrtale.o
+                0x00d1ba9d                _draw_ouat_frame
+ .text._draw_ouat_intro
+                0x00d1bc46      0x311 obj/Undrtale.o
+                0x00d1bc46                _draw_ouat_intro
+ .text._draw_instruction_screen
+                0x00d1bf57      0x104 obj/Undrtale.o
+                0x00d1bf57                _draw_instruction_screen
+ .text._draw_keyboard_screen
+                0x00d1c05b      0x1aa obj/Undrtale.o
+                0x00d1c05b                _draw_keyboard_screen
+ .text._draw_confirm_screen
+                0x00d1c205      0x4cd obj/Undrtale.o
+                0x00d1c205                _draw_confirm_screen
+ .text._main    0x00d1c6d2      0xebd obj/Undrtale.o
+                0x00d1c6d2                _main
+ .text._random  0x00d1d58f       0x55 obj/Undrtale.o
+                0x00d1d58f                _random
+ .text._malloc  0x00d1d5e4       0xc2 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+                0x00d1d5e4                _malloc
+ .text._free    0x00d1d6a6       0xbd C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+                0x00d1d6a6                _free
+ *(.gnu.warning)
+
+.rodata         0x00d1d763      0x620
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._main  0x00d1d763       0x27 obj/Undrtale.o
+ .rodata._layout
+                0x00d1d78a       0x3f obj/Undrtale.o
+                0x00d1d78a                _layout
+ .rodata._ouatCompressed
+                0x00d1d7c9       0x24 obj/Undrtale.o
+                0x00d1d7c9                _ouatCompressed
+ .rodata._.str  0x00d1d7ed       0x3b obj/Undrtale.o
+ .rodata._.str.1
+                0x00d1d828       0x2e obj/Undrtale.o
+ .rodata._.str.2
+                0x00d1d856       0x31 obj/Undrtale.o
+ .rodata._.str.3
+                0x00d1d887       0x39 obj/Undrtale.o
+ .rodata._.str.4
+                0x00d1d8c0       0x14 obj/Undrtale.o
+ .rodata._.str.5
+                0x00d1d8d4        0xf obj/Undrtale.o
+ .rodata._.str.6
+                0x00d1d8e3       0x3c obj/Undrtale.o
+ .rodata._.str.7
+                0x00d1d91f        0x1 obj/Undrtale.o
+ .rodata._ouatText
+                0x00d1d920       0x24 obj/Undrtale.o
+                0x00d1d920                _ouatText
+ .rodata._.str.8
+                0x00d1d944        0x5 obj/Undrtale.o
+ .rodata._.str.9
+                0x00d1d949        0x6 obj/Undrtale.o
+ .rodata._.str.10
+                0x00d1d94f        0x7 obj/Undrtale.o
+ .rodata._.str.11
+                0x00d1d956       0x14 obj/Undrtale.o
+ .rodata._.str.12
+                0x00d1d96a        0x7 obj/Undrtale.o
+ .rodata._.str.13
+                0x00d1d971       0x1a obj/Undrtale.o
+ .rodata._.str.14
+                0x00d1d98b        0x6 obj/Undrtale.o
+ .rodata._.str.15
+                0x00d1d991        0xe obj/Undrtale.o
+ .rodata._.str.16
+                0x00d1d99f        0x6 obj/Undrtale.o
+ .rodata._.str.17
+                0x00d1d9a5       0x3d obj/Undrtale.o
+ .rodata._.str.18
+                0x00d1d9e2        0x6 obj/Undrtale.o
+ .rodata._.str.19
+                0x00d1d9e8        0x7 obj/Undrtale.o
+ .rodata._.str.20
+                0x00d1d9ef        0x7 obj/Undrtale.o
+ .rodata._.str.21
+                0x00d1d9f6       0x27 obj/Undrtale.o
+ .rodata._.str.22
+                0x00d1da1d        0x5 obj/Undrtale.o
+ .rodata._.str.23
+                0x00d1da22        0x6 obj/Undrtale.o
+ .rodata._.str.24
+                0x00d1da28        0x4 obj/Undrtale.o
+ .rodata._.str.25
+                0x00d1da2c       0x22 obj/Undrtale.o
+ .rodata._.str.26
+                0x00d1da4e        0x7 obj/Undrtale.o
+ .rodata._.str.27
+                0x00d1da55       0x17 obj/Undrtale.o
+ .rodata._.str.28
+                0x00d1da6c        0x7 obj/Undrtale.o
+ .rodata._.str.29
+                0x00d1da73       0x11 obj/Undrtale.o
+ .rodata._.str.30
+                0x00d1da84        0x7 obj/Undrtale.o
+ .rodata._.str.31
+                0x00d1da8b        0x4 obj/Undrtale.o
+ .rodata._.str.32
+                0x00d1da8f        0x7 obj/Undrtale.o
+ .rodata._.str.33
+                0x00d1da96        0xc obj/Undrtale.o
+ .rodata._.str.34
+                0x00d1daa2        0x7 obj/Undrtale.o
+ .rodata._.str.35
+                0x00d1daa9       0x1a obj/Undrtale.o
+ .rodata._.str.36
+                0x00d1dac3        0x6 obj/Undrtale.o
+ .rodata._.str.37
+                0x00d1dac9       0x19 obj/Undrtale.o
+ .rodata._.str.38
+                0x00d1dae2        0x6 obj/Undrtale.o
+ .rodata._.str.39
+                0x00d1dae8        0xb obj/Undrtale.o
+ .rodata._.str.40
+                0x00d1daf3        0x7 obj/Undrtale.o
+ .rodata._.str.41
+                0x00d1dafa        0x7 obj/Undrtale.o
+ .rodata._.str.42
+                0x00d1db01       0x2f obj/Undrtale.o
+ .rodata._.str.43
+                0x00d1db30        0x7 obj/Undrtale.o
+ .rodata._.str.44
+                0x00d1db37       0x12 obj/Undrtale.o
+ .rodata._.str.45
+                0x00d1db49        0x7 obj/Undrtale.o
+ .rodata._.str.46
+                0x00d1db50        0x5 obj/Undrtale.o
+ .rodata._.str.47
+                0x00d1db55        0x7 obj/Undrtale.o
+ .rodata._.str.48
+                0x00d1db5c        0xc obj/Undrtale.o
+ .rodata._.str.49
+                0x00d1db68        0x7 obj/Undrtale.o
+ .rodata._.str.50
+                0x00d1db6f        0x5 obj/Undrtale.o
+ .rodata._.str.51
+                0x00d1db74        0x6 obj/Undrtale.o
+ .rodata._.str.52
+                0x00d1db7a       0x20 obj/Undrtale.o
+ .rodata._.str.53
+                0x00d1db9a        0x7 obj/Undrtale.o
+ .rodata._.str.54
+                0x00d1dba1        0x6 obj/Undrtale.o
+ .rodata._.str.55
+                0x00d1dba7       0x2a obj/Undrtale.o
+ .rodata._.str.56
+                0x00d1dbd1        0x7 obj/Undrtale.o
+ .rodata._.str.57
+                0x00d1dbd8       0x1c obj/Undrtale.o
+ .rodata._.str.58
+                0x00d1dbf4        0x7 obj/Undrtale.o
+ .rodata._.str.59
+                0x00d1dbfb       0x16 obj/Undrtale.o
+ .rodata._.str.60
+                0x00d1dc11        0x5 obj/Undrtale.o
+ .rodata._.str.61
+                0x00d1dc16        0x5 obj/Undrtale.o
+ .rodata._.str.62
+                0x00d1dc1b       0x12 obj/Undrtale.o
+ .rodata._.str.63
+                0x00d1dc2d       0x10 obj/Undrtale.o
+ .rodata._.str.64
+                0x00d1dc3d       0x11 obj/Undrtale.o
+ .rodata._.str.65
+                0x00d1dc4e       0x18 obj/Undrtale.o
+ .rodata._.str.66
+                0x00d1dc66       0x14 obj/Undrtale.o
+ .rodata._.str.67
+                0x00d1dc7a       0x18 obj/Undrtale.o
+ .rodata._.str.68
+                0x00d1dc92        0xb obj/Undrtale.o
+ .rodata._.str.69
+                0x00d1dc9d        0x9 obj/Undrtale.o
+ .rodata._.str.70
+                0x00d1dca6       0x17 obj/Undrtale.o
+ .rodata._.str.71
+                0x00d1dcbd        0x5 obj/Undrtale.o
+ .rodata._.str.72
+                0x00d1dcc2        0xa obj/Undrtale.o
+ .rodata._.str.73
+                0x00d1dccc        0x5 obj/Undrtale.o
+ .rodata._.str.74
+                0x00d1dcd1       0x16 obj/Undrtale.o
+ .rodata._.str.75
+                0x00d1dce7        0x8 obj/Undrtale.o
+ .rodata._.str.76
+                0x00d1dcef        0x3 obj/Undrtale.o
+ .rodata._.str.77
+                0x00d1dcf2        0x4 obj/Undrtale.o
+ .rodata._.str.78
+                0x00d1dcf6       0x11 obj/Undrtale.o
+ .rodata._.str.79
+                0x00d1dd07       0x14 obj/Undrtale.o
+ .rodata._.str.80
+                0x00d1dd1b        0x7 obj/Undrtale.o
+ .rodata._.str.81
+                0x00d1dd22       0x15 obj/Undrtale.o
+ .rodata._.str.82
+                0x00d1dd37        0x9 obj/Undrtale.o
+ .rodata._.str.83
+                0x00d1dd40        0xa obj/Undrtale.o
+ .rodata._.str.84
+                0x00d1dd4a        0xb obj/Undrtale.o
+ .rodata._.str.85
+                0x00d1dd55        0xc obj/Undrtale.o
+ .rodata.libload
+                0x00d1dd61       0x22 obj/crt0.o
+
+.init_array     0x00d1dd83        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(.preinit_array)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*))
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x00d1dd83        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*))
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x00d1dd83                        ___data_low = .
+
+.data           0x00d1dd83     0xaf73
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00d1dd83       0x10 obj/Undrtale.o
+ .data._name    0x00d1dd93        0x7 obj/Undrtale.o
+                0x00d1dd93                _name
+ .data._gameState
+                0x00d1dd9a        0x3 obj/Undrtale.o
+                0x00d1dd9a                _gameState
+ .data._confirmSel
+                0x00d1dd9d        0x3 obj/Undrtale.o
+                0x00d1dd9d                _confirmSel
+ .data._ouat0_compressed
+                0x00d1dda0      0x32d obj/Undrtale.o
+                0x00d1dda0                _ouat0_compressed
+ .data._ouat1_compressed
+                0x00d1e0cd      0x5b7 obj/Undrtale.o
+                0x00d1e0cd                _ouat1_compressed
+ .data._ouat2_compressed
+                0x00d1e684      0x61c obj/Undrtale.o
+                0x00d1e684                _ouat2_compressed
+ .data._ouat3_compressed
+                0x00d1eca0      0x631 obj/Undrtale.o
+                0x00d1eca0                _ouat3_compressed
+ .data._ouat4_compressed
+                0x00d1f2d1        0xb obj/Undrtale.o
+                0x00d1f2d1                _ouat4_compressed
+ .data._ouat5_compressed
+                0x00d1f2dc      0x2b2 obj/Undrtale.o
+                0x00d1f2dc                _ouat5_compressed
+ .data._ouat6_compressed
+                0x00d1f58e      0x698 obj/Undrtale.o
+                0x00d1f58e                _ouat6_compressed
+ .data._ouat7_compressed
+                0x00d1fc26      0x635 obj/Undrtale.o
+                0x00d1fc26                _ouat7_compressed
+ .data._ouat8_compressed
+                0x00d2025b      0x561 obj/Undrtale.o
+                0x00d2025b                _ouat8_compressed
+ .data._ouat9_compressed
+                0x00d207bc      0x516 obj/Undrtale.o
+                0x00d207bc                _ouat9_compressed
+ .data._ouat10_compressed
+                0x00d20cd2        0xb obj/Undrtale.o
+                0x00d20cd2                _ouat10_compressed
+ .data._ouatl_compressed
+                0x00d20cdd     0x195d obj/Undrtale.o
+                0x00d20cdd                _ouatl_compressed
+ .data._player  0x00d2263a       0x19 obj/Undrtale.o
+                0x00d2263a                _player
+ .data._global_palette
+                0x00d22653      0x200 obj/Undrtale.o
+                0x00d22653                _global_palette
+ .data._undertale_data
+                0x00d22853     0x4b02 obj/Undrtale.o
+                0x00d22853                _undertale_data
+ .data._friskidledown_data
+                0x00d27355      0x229 obj/Undrtale.o
+                0x00d27355                _friskidledown_data
+ .data._friskdownmove1_data
+                0x00d2757e      0x229 obj/Undrtale.o
+                0x00d2757e                _friskdownmove1_data
+ .data._friskdownmove2_data
+                0x00d277a7      0x229 obj/Undrtale.o
+                0x00d277a7                _friskdownmove2_data
+ .data._friskidleup_data
+                0x00d279d0      0x229 obj/Undrtale.o
+                0x00d279d0                _friskidleup_data
+ .data._friskupmove1_data
+                0x00d27bf9      0x229 obj/Undrtale.o
+                0x00d27bf9                _friskupmove1_data
+ .data._friskupmove2_data
+                0x00d27e22      0x229 obj/Undrtale.o
+                0x00d27e22                _friskupmove2_data
+ .data._friskidleleft_data
+                0x00d2804b      0x25a obj/Undrtale.o
+                0x00d2804b                _friskidleleft_data
+ .data._friskleftmove1_data
+                0x00d282a5      0x1de obj/Undrtale.o
+                0x00d282a5                _friskleftmove1_data
+ .data._friskleftmove2_data
+                0x00d28483      0x1de obj/Undrtale.o
+                0x00d28483                _friskleftmove2_data
+ .data._friskidleright_data
+                0x00d28661      0x25a obj/Undrtale.o
+                0x00d28661                _friskidleright_data
+ .data._friskrightmove1_data
+                0x00d288bb      0x25a obj/Undrtale.o
+                0x00d288bb                _friskrightmove1_data
+ .data._friskrightmove2_data
+                0x00d28b15      0x1de obj/Undrtale.o
+                0x00d28b15                _friskrightmove2_data
+ .data._heap_ptr
+                0x00d28cf3        0x3 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ *(.data1)
+                0x00d28cf6                        ___runprgm_reloc_start = .
+ *(.runprgm.reloc)
+                0x00d28cf6                        ___runprgm_reloc_end = .
+                0x00d28cf6                        ___data_high = .
+                0x0000af73                        ___data_len = (___data_high - ___data_low)
+                0x00d052c6                        . = BSSHEAP_LOW
+                0x00d052c6                        ___bss_low = .
+
+.bss            0x00d052c6       0x40
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss._nameLen  0x00d052c6        0x3 obj/Undrtale.o
+                0x00d052c6                _nameLen
+ .bss._cx       0x00d052c9        0x3 obj/Undrtale.o
+                0x00d052c9                _cx
+ .bss._cy       0x00d052cc        0x3 obj/Undrtale.o
+                0x00d052cc                _cy
+ .bss._menuSel  0x00d052cf        0x3 obj/Undrtale.o
+                0x00d052cf                _menuSel
+ .bss._zoomTimer
+                0x00d052d2        0x3 obj/Undrtale.o
+                0x00d052d2                _zoomTimer
+ .bss._ouatSlide
+                0x00d052d5        0x3 obj/Undrtale.o
+                0x00d052d5                _ouatSlide
+ .bss._ouat_current_y
+                0x00d052d8        0x3 obj/Undrtale.o
+                0x00d052d8                _ouat_current_y
+ *fill*         0x00d052db        0x1 
+ .bss._ouat_frozen_chars
+                0x00d052dc        0x2 obj/Undrtale.o
+                0x00d052dc                _ouat_frozen_chars
+ .bss._clearStart
+                0x00d052de        0x4 obj/Undrtale.o
+                0x00d052de                _clearStart
+ .bss._fadeStart
+                0x00d052e2        0x4 obj/Undrtale.o
+                0x00d052e2                _fadeStart
+ .bss._ouatSlideStart
+                0x00d052e6        0x4 obj/Undrtale.o
+                0x00d052e6                _ouatSlideStart
+ .bss._splashStart
+                0x00d052ea        0x4 obj/Undrtale.o
+                0x00d052ea                _splashStart
+ .bss._skipStart
+                0x00d052ee        0x4 obj/Undrtale.o
+                0x00d052ee                _skipStart
+ .bss._clearHeld
+                0x00d052f2        0x1 obj/Undrtale.o
+                0x00d052f2                _clearHeld
+ .bss._restorePalette
+                0x00d052f3        0x1 obj/Undrtale.o
+                0x00d052f3                _restorePalette
+ .bss._hardMode
+                0x00d052f4        0x1 obj/Undrtale.o
+                0x00d052f4                _hardMode
+ .bss._isSkipping
+                0x00d052f5        0x1 obj/Undrtale.o
+                0x00d052f5                _isSkipping
+ .bss._ouatSprite
+                0x00d052f6        0x3 obj/Undrtale.o
+                0x00d052f6                _ouatSprite
+ .bss._windowSprite
+                0x00d052f9        0x3 obj/Undrtale.o
+                0x00d052f9                _windowSprite
+ .bss._main.last_anim_time
+                0x00d052fc        0x4 obj/Undrtale.o
+ .bss.__alloc_base
+                0x00d05300        0x6 C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a(allocator_standard.o)
+ *(COMMON)
+                0x00d05306                        ___bss_high = .
+                0x00000040                        ___bss_len = (___bss_high - ___bss_low)
+                0x00000001                        ASSERT ((. <= BSSHEAP_HIGH), Error: BSS exceed BSSHEAP_HIGH limit)
+                0x00d05306                        ___heap_low = .
+                0x00d13fd8                        . = BSSHEAP_HIGH
+                0x00d13fd8                        ___heap_high = .
+
+.runprgm
+ *(.runprgm.reloc)
+
+.debug_info
+ *(.debug_info .debug_info.*)
+
+.debug_abbrev
+ *(.debug_abbrev .debug_abbrev.*)
+
+.debug_line
+ *(.debug_line .debug_line.*)
+
+.debug_line_str
+ *(.debug_line_str .debug_line_str.*)
+
+.debug_str
+ *(.debug_str .debug_str.*)
+
+.debug_str_offsets
+ *(.debug_str_offsets .debug_str_offsets.*)
+
+.debug_addr
+ *(.debug_addr .debug_addr.*)
+
+.debug_aranges
+ *(.debug_aranges .debug_aranges.*)
+
+.debug_ranges
+ *(.debug_ranges .debug_ranges.*)
+
+.debug_rnglists
+ *(.debug_rnglists .debug_rnglists.*)
+
+.debug_loc
+ *(.debug_loc .debug_loc.*)
+
+.debug_loclists
+ *(.debug_loclists .debug_loclists.*)
+
+.debug_frame
+ *(.debug_frame .debug_frame.*)
+
+.debug_macro
+ *(.debug_macro .debug_macro.*)
+
+.debug_macinfo
+ *(.debug_macinfo .debug_macinfo.*)
+
+.debug_names
+ *(.debug_names .debug_names.*)
+
+.debug_pubnames
+ *(.debug_pubnames .debug_pubnames.*)
+
+.debug_pubtypes
+ *(.debug_pubtypes .debug_pubtypes.*)
+
+.debug_types
+ *(.debug_types .debug_types.*)
+
+.debug_sup
+ *(.debug_sup .debug_sup.*)
+
+.debug_cu_index
+ *(.debug_cu_index .debug_cu_index.*)
+
+.debug_tu_index
+ *(.debug_tu_index .debug_tu_index.*)
+
+.gdb_index
+ *(.gdb_index)
+
+.debug_gdb_scripts
+ *(.debug_gdb_scripts)
+
+.debug_abbrev.dwo
+ *(.debug_abbrev.dwo .debug_abbrev.dwo.*)
+
+.debug_info.dwo
+ *(.debug_info.dwo .debug_info.dwo.*)
+
+.debug_line.dwo
+ *(.debug_line.dwo .debug_line.dwo.*)
+
+.debug_loclists.dwo
+ *(.debug_loclists.dwo .debug_loclists.dwo.*)
+
+.debug_macro.dwo
+ *(.debug_macro.dwo .debug_macro.dwo.*)
+
+.debug_rnglists.dwo
+ *(.debug_rnglists.dwo .debug_rnglists.dwo.*)
+
+.debug_str.dwo
+ *(.debug_str.dwo .debug_str.dwo.*)
+
+.debug_str_offsets.dwo
+ *(.debug_str_offsets.dwo .debug_str_offsets.dwo.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+
+/DISCARD/
+ *(.comment)
+ *(.note*)
+                [!provide]                        PROVIDE (___runprgm_reloc_len = (___runprgm_reloc_end - ___runprgm_reloc_start))
+LOAD obj/Undrtale.o
+LOAD obj/crt0.o
+START GROUP
+LOAD C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/allocator_standard.a
+LOAD C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/crt/libcrt.a
+LOAD C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/ce/libce.a
+LOAD C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/softfloat/libsoftfloat.a
+LOAD C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libc/libc_os.a
+LOAD C:/Users/wtjoh/Documents/CEdev-Windows/CEdev/lib/libcxx/libcxx.a
+END GROUP
+OUTPUT(bin/Undrtale.obj elf32-z80)
